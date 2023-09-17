@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prog_diaria"
+            android:icon="@drawable/ic_prepago"
+            android:title="Programacion Diaria" />
+        <item
+            android:id="@+id/nav_prog_anterior"
+            android:icon="@drawable/ic_prepago"
+            android:title="Programacion Anterior" />
+        <item
+            android:id="@+id/nav_pendientes"
+            android:icon="@drawable/ic_autoplan"
+            android:title="Visor Pendientes" />
+        <item
+            android:id="@+id/nav_add_tarea"
+            android:icon="@drawable/ic_autoplan"
+            android:title="Añadir Tarea Diaria" />
+        <item
+            android:id="@+id/nav_envio_tarea"
+            android:icon="@drawable/ic_autoplan"
+            android:title="Envio Tareas" />
+        <item
+            android:id="@+id/nav_inc_reportadas"
+            android:icon="@drawable/ic_hogar"
+            android:title="Incidencias Reportadas" />
+        <item
+            android:id="@+id/nav_ver_log"
+            android:icon="@drawable/ic_icon_assignment"
+            android:title="Log de Actividades" />
+        <item
+            android:id="@+id/nav_cerrar_session"
+            android:icon="@drawable/ic_icon_cerrarsession"
+            android:title="Cerrar Sesión" />
+    </group>
+
+</menu>

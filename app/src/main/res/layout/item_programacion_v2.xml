@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/borde_lista_programacion">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/estadoTarea"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center_vertical|left">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/prog_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnSpan="1"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:text="Titulo Programacion"
+                android:textColor="#010101"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/prog_descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:maxWidth="220dp"
+                android:text="Descripcion"
+                android:textColor="#939393"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/prog_observacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:maxWidth="220dp"
+                android:text="Observacion"
+                android:textColor="#939393"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/prog_Ejecucion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowSpan="2"
+                android:layout_column="1"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="5dp"
+                android:minWidth="50dp"
+                android:text="Ejecucion"
+                android:textColor="#000000"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/prog_Horario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowSpan="2"
+                android:layout_column="1"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="5dp"
+                android:minWidth="50dp"
+                android:text="Horario"
+                android:textColor="#000000"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/prog_id"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="0dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

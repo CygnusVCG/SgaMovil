@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorNaranjoText">#CC5223</color>
+    <color name="colorGrisText">#cccccc</color>
+    <color name="colorAzulText">#428bca</color>
+    <color name="titulos">#428bca</color>
+
+    <color name="blanco">#ffffff</color>
+    <color name="negro">#000000</color>
+    <color name="fondoBoton">#125187</color>
+    <color name="fondoNaranjo">#CC5223</color>
+    <color name="fondoRojo">#d9534f</color>
+    <color name="fondoVerde">#0ca401</color>
+    <color name="fondoAmarillo">#FBDA00</color>
+
+    <color name="azulCabecera">#003F6E</color>
+</resources>

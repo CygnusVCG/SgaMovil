@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Gestion Actividades</string>
+
+    <string name="font_txt">Montserrat, sans-serif</string>
+
+    <string name="act_login_hint_usuario">Usuario</string>
+    <string name="act_login_hint_password">Contraseña</string>
+    <string name="act_login_btn_entrar">ENTRAR</string>
+    <string name="act_login_edtxt_olvidoContrasena">Olvidaste la clave</string>
+    <string name="act_login_txtVw_SGP">Gestion Actividades</string>
+    <string name="act_login_txtVw_mobile"></string>
+    <string name="act_login_txtVw_frase">Cygnus SGA</string>
+
+    <string name="act_login_txtVw_frase_Recupera">Le enviaremos un link a su correo para reestablecer su contraseña</string>
+
+    <string name="act_pass_hint_Email">Email</string>
+
+
+    <string name="act_main_txtVwTitulo">Selección de PDS</string>
+    <string name="act_main_txtVwPDS">PDS</string>
+    <string name="act_main_txtVwPrepago">Tipo</string>
+    <string name="act_main_txtVwPlan">Plan</string>
+    <string name="act_main_txtImei">Codigo</string>
+    <string name="act_main_txtHora">Hora </string>
+    <string name="act_main_txtFecha">Fecha </string>
+    <string name="act_main_txtFechaVenta">Fecha Venta </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_principal">Captura Codigo</string>
+
+    <string name="title_activity_capturarnormalhogar">Captura Hogar</string>
+    <string name="title_activity_capturarmanualhogar">Captura Manual Hogar</string>
+    <string name="title_activity_capturamasivahogar">Captura Masiva Hogar</string>
+
+    <string name="title_activity_capturarnormalprepago">Captura Prepago</string>
+    <string name="title_activity_capturarmanualprepago">Captura Manual Prepago</string>
+    <string name="title_activity_capturamasivaprepago">Captura Masiva Prepago</string>
+
+    <string name="title_activity_capturarnormalautoplan">Captura Autoplan</string>
+    <string name="title_activity_capturarmanualautoplan">Captura Manual Autoplan</string>
+
+    <string name="title_activity_revisar_capturas">Capturas Enviadas</string>
+    <string name="title_activity_enviar_capturas">Enviar Capturas</string>
+    <string name="title_activity_eliminar_capturas">Eliminar Codigo Capturado</string>
+    <string name="title_activity_ver_log">Ver Log Actividad</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="title_activity_accion">Accion</string>
+    <string name="title_activity_autoplan">Autoplan</string>
+
+    <!--TITULO ALERT-->
+    <string name="informacion">Información</string>
+    <string name="precaucion">Precaución</string>
+    <string name="exito">Exito</string>
+    <string name="error">Error</string>
+    <!--TITULO ALERT-->
+</resources>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/borde_lista_tareas">
+
+        <TextView
+            android:id="@+id/tarea_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Titulo Actividad (Area)"
+            android:textColor="#010101"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tarea_descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:maxWidth="220dp"
+            android:text="Descripcion Actividad"
+            android:textColor="#939393"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tarea_estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginRight="5dp"
+            android:minWidth="50dp"
+            android:text="Estado Actividad"
+            android:textColor="#4CAF50"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/areaactividad_id"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+</LinearLayout>

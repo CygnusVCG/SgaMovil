@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarActividadActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@drawable/bg_header"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_weight="1"
+        android:background="@color/blanco"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:background="@color/blanco"
+                android:columnCount="2"
+                android:rowCount="1">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1000dp"
+                    android:background="@color/blanco"
+                    android:columnCount="2"
+                    android:rowCount="19">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Area"
+                        android:textColor="@color/colorNaranjoText"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/bg_spinner"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinnerArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/ic_spinner" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="3"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Actividad"
+                        android:textColor="@color/colorNaranjoText"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="4"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/bg_spinner"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinnerActividad"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/ic_spinner" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="5"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Estado Actividad"
+                        android:textColor="@color/colorNaranjoText"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="6"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/bg_spinner"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinnerEstado"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/ic_spinner" />
+
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="7"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Nivel Conformidad"
+                        android:textColor="@color/colorNaranjoText"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="8"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/bg_spinner"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinnerConformidad"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/ic_spinner" />
+
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="9"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Rango Recepcion"
+                        android:textColor="@color/colorNaranjoText"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="10"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/bg_spinner"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinnerRango"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/ic_spinner" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="11"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Ejecutor"
+                        android:textColor="@color/colorNaranjoText"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="12"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/bg_spinner"
+                        android:orientation="horizontal">
+
+                        <com.cygnus.sgamovil.cls.MultiSpinner
+                            android:id="@+id/spinnerEjecutor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent" />
+
+                        <!--<Spinner
+                            android:id="@+id/spinnerEjecutor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@android:color/transparent" />-->
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/ic_spinner" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="13"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Fotos"
+                        android:textColor="@color/colorNaranjoText"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnFotoAntes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="14"
+                        android:layout_column="0"
+                        android:layout_columnSpan="1"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:width="120dp"
+                        android:background="@drawable/btn_login"
+                        android:text="Foto Antes"
+                        android:textColor="@color/blanco" />
+
+                    <TextView
+                        android:id="@+id/txtFotoAntes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="14"
+                        android:layout_column="1"
+                        android:layout_columnSpan="1"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:width="240dp"
+                        android:text=""
+                        android:textColor="@color/colorAzulText"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnFotoDespues"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="15"
+                        android:layout_column="0"
+                        android:layout_columnSpan="1"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:width="120dp"
+                        android:background="@drawable/btn_login"
+                        android:text="Foto Despues"
+                        android:textColor="@color/blanco" />
+
+                    <TextView
+                        android:id="@+id/txtFotoDespues"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="15"
+                        android:layout_column="1"
+                        android:layout_columnSpan="1"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:width="240dp"
+                        android:text=""
+                        android:textColor="@color/colorAzulText"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="16"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Observacion"
+                        android:textColor="@color/colorNaranjoText"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/txtObervaciones"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="17"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="15dp"
+                        android:ems="20"
+                        android:inputType="textNoSuggestions"
+                        android:maxLength="100"
+                        android:textColor="@color/colorAzulText" />
+
+                    <Button
+                        android:id="@+id/btnGuardaDatos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="18"
+                        android:layout_column="0"
+                        android:layout_columnSpan="2"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:width="200dp"
+                        android:background="@drawable/btn_enviar"
+                        android:text="Guardar Datos"
+                        android:textColor="@color/blanco" />
+
+                </GridLayout>
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

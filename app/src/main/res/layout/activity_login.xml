@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.cygnus.sgamovil.LoginActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="66dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/logocygnusnew"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/act_login_txtVw_SGP"
+                android:textColor="@color/blanco"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/act_login_txtVw_mobile"
+                android:textColor="@color/blanco"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/vwVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="25dp"
+            android:text="@string/act_login_txtVw_frase"
+            android:textColor="@color/blanco"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/editTextUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="120dp"
+            android:drawableStart="@drawable/ic_icon_user"
+            android:drawableLeft="@drawable/ic_icon_user"
+            android:drawablePadding="20dp"
+            android:ems="20"
+            android:hint="@string/act_login_hint_usuario"
+            android:inputType="textPersonName"
+            android:textSize="22sp"
+            android:textColor="@color/blanco"
+            android:theme="@style/EditTextLoginUsuario"
+            android:fontFamily="@string/font_txt"
+            />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_icon_pass"
+            android:drawableLeft="@drawable/ic_icon_pass"
+            android:drawablePadding="20dp"
+            android:ems="20"
+            android:hint="@string/act_login_hint_password"
+            android:inputType="textPassword"
+            android:textSize="22sp"
+            android:textColor="@color/blanco"
+            android:theme="@style/EditTextLoginPassword"
+            android:fontFamily="@string/font_txt"
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/act_login_btn_entrar"
+            android:textColor="@color/blanco"
+            android:background="@drawable/btn_login"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <TextView
+            android:id="@+id/vwTxtOlvidaste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/act_login_edtxt_olvidoContrasena"
+            android:textColor="@color/colorGrisText" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytRecupera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/act_login_txtVw_frase_Recupera"
+            android:textAlignment="center"
+            android:textColor="@color/blanco"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editMailRecupera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="20dp"
+                android:ems="20"
+                android:fontFamily="@string/font_txt"
+                android:hint="@string/act_pass_hint_Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/blanco"
+                android:textSize="22sp"
+                android:theme="@style/EditTextLoginPassword" />
+
+            <ImageButton
+                android:id="@+id/btnRecupera"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_go" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

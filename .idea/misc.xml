@@ -1,0 +1,82 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/bg_detalle_accidentes.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/bg_spinner.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/bg_trabajador_no_asiste.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/bg_trabajador_no_asiste_selec.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/borde_lista_programacion.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/borde_lista_tareas.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/border_bottom.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/btn_ausente.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/btn_desactivado.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/btn_enviar.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/btn_login.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/btn_presente.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/edit_background.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_autoplan.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_avatar_profile.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_go.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_historial.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_hogar.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_ico_input.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_ico_library_books.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_ico_report_problem.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_icon_add_circle.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_icon_assignment.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_icon_assignment_late.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_icon_date_range.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_icon_delete.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_icon_forum.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_icon_pass.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_icon_up3.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_icon_user.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/ic_prepago.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/logo_cygnus.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/drawable/popup.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_agregar_actividad.xml" value="0.33" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_base.xml" value="0.25" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_detalle_incidencia.xml" value="0.358695652173913" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_enviar_respuestas.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_envio.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_envio_log.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_inicidencias.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_inicio.xml" value="0.358695652173913" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_pendientes.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_programacion.xml" value="0.358695652173913" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_programacion_anterior.xml" value="0.358695652173913" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_respuesta_tarea.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_tarea.xml" value="0.358695652173913" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/activity_ver_log.xml" value="0.358695652173913" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/app_bar_agregar_actividad.xml" value="0.358695652173913" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/app_bar_base.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/app_bar_detalle_incidencia.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/app_bar_enviar_respuestas.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/app_bar_incidencias.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/app_bar_inicio.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/app_bar_pendientes.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/app_bar_tarea.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/item_incidencia.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/item_programacion.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/item_programacion_v2.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/item_tarea.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/item_tarea_v2.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/nav_header_principal.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/layout/spinner.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/menu/activity_principal_drawer.xml" value="0.1953125" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/mipmap-anydpi-v26/edit.xml" value="0.203" />
+        <entry key="..\:/git/Sga-App/app/src/main/res/mipmap-anydpi-v26/edit_round.xml" value="0.1965" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
